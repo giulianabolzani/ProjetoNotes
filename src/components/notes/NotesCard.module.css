@@ -1,0 +1,99 @@
+.note_card{
+    padding: 1em;
+    border: 1px solid #7a7a7a;
+    border-radius: 5px;
+    width: 24%;
+    margin: 0.5%;
+}
+
+.note_card h4{
+    background-color: rgb(26, 114, 197);
+    color: #ffffff;
+    padding: 0.4em;
+    margin-bottom: 1.3em;
+    font-size: 1.3em;
+    border-radius: 5px;
+}
+
+.note_card p{
+    color: #7a7a7a;
+    margin-bottom: 1em;
+}
+
+.note_card p span{
+    font-weight: bold;
+}
+
+.details_text span{
+    display: block;
+}
+
+.details_text p{
+    font-size: 15px;
+    color: #7a7a7a;
+    padding: 0.4em;
+    margin-top: 0.5em;
+    background-color: #ffffff;
+    border: 1px solid #7a7a7a;
+    border-radius: 5px;
+}
+
+.categories_text{
+    display: flex;
+    align-items: center;
+}
+
+.categories_text span{
+    display: block;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: #CCC;
+    margin-left: 100px;
+    margin-right: 5px;
+}
+
+.categories_text .acadêmico{
+    background-color: rgb(247, 3, 3);
+}
+
+.categories_text .profissional{
+    background-color: rgb(13, 116, 212);
+}
+
+.categories_text .pessoal{
+    background-color: rgb(228, 224, 12);
+}
+
+.note_card_actions{
+    margin-top: 1.em;
+    display: flex;
+    align-items: center;
+}
+
+.note_card_actions a,
+.note_card_actions button{
+    text-decoration: none;
+    border: none;
+    background-color: #FFF;
+    color: #222;
+    font-size: .9em;
+    padding: .6em 1em;
+    cursor: pointer;
+    margin-right: 1em;
+    border: 1px solid #222;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.5s;
+}
+
+.note_card_actions svg{
+    margin-right: .5em;
+}
+
+.note_card_actions a:hover,
+.note_card_actions button:hover{
+    background-color: #222;
+    color: #FFBB33;
+}

@@ -1,0 +1,17 @@
+{
+  "notes": [],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Acadêmico"
+    },
+    {
+      "id": 2,
+      "name": "Profissional"
+    },
+    {
+      "id": 3,
+      "name": "Pessoal"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+.novasanotacoes_container{
+    width: 450px;
+    margin: 0 auto;
+    padding: 3em;
+}
+
+.novasanotacoes_container h1{
+    margin-bottom: 0.5em;
+}
+
+.novasanotacoes_container p{
+    color: #7b7b7b;
+}
+
+.novasanotacoes_container span{
+    background-color: #FFBA09;
+    color: rgb(255, 255, 255);
+    padding: .3em;
+    border-radius: 0.5em;
+    margin-left: 0.5em;
+}
